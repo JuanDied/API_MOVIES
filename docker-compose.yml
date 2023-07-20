@@ -1,0 +1,9 @@
+services:
+  web-serv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    ports:
+      - '5000:5000'
