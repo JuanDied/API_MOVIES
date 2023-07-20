@@ -2,7 +2,7 @@ from fastapi import APIRouter
 from fastapi import  HTTPException
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
-from jwt_manager import create_token
+from utils.jwt_manager import create_token
 from schemas.user import User
 
 
